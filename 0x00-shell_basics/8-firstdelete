@@ -1,2 +1,2 @@
 #!/bin/bash
-rm /tmp/my_first_repository/betty /tmp/my_first_repository
+rm /tmp/my_first_repository/betty 
