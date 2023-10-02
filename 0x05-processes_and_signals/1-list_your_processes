@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Shebang line to specify the interpreter
+
+# Display a list of all running processes with hierarchy
+ps auxf
