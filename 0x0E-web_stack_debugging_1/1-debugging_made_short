@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-sudo apt-get update
-sudo apt-get install nginx -y
-echo "server { listen 80 default_server; listen [::]:80 default_server; server_name _; location / { root /usr/share/nginx/html; index index.html index.htm; }}" | sudo tee /etc/nginx/sites-available/default
-sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
-nginx -t && service nginx restart
+# silently send sigup to nginx after config
+sudo sed -i 's/sites-enabled/sites-available/g' "/etc/nginx/nginx.conf"
+sudo kill -HUP "$(pgrep -f 'nginx: master')"
