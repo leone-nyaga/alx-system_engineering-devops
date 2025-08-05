@@ -53,6 +53,11 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 + The answer of a task must be in a specific file
 + Each answer file must contain only the command to execute in Emacs for solving the task. Example: “What is the command to write buffer to a specified file?” -> the file should contain only C-x C-w
 
+## Quiz Questions
+
+![task2](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x01.Emacs/images/emacs%200-2.png)
+![task1](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x01.Emacs/images/emacs%202-3.png)
+
 ## Tasks
 
 0. Create your answer directory
