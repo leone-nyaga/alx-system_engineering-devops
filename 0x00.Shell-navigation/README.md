@@ -57,6 +57,14 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 + Your sandbox must be available at the end of this project - the Checker will access to it at midnight for running the correction!
 + It’s recommended to start the project on a fresh new Sandbox
 
+## Quiz Questions
+
+![task0](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00.Shell-navigation/images/shellnav0-1.png)
+![task1](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00.Shell-navigation/images/shellnav2-3.png)
+![task2](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00.Shell-navigation/images/shellnav4-5.png)
+![task3](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00.Shell-navigation/images/shellnav6-7.png)
+![task4](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00.Shell-navigation/images/shellnav8-9.png)
+
 ## Tasks
 
 0. Create me!
