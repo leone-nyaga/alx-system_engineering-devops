@@ -77,6 +77,8 @@ $ git push origin main
 
 ## Quiz Questions
 
+![task0](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x03.Git/images/git0.png)
+![task0](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x03.Git/images/git1.png)
 
 ## Tasks
 
