@@ -220,3 +220,178 @@ Repo:
 + GitHub repository: alx-system_engineering-devops
 + Directory: 0x02-shell_redirections
 + File: 4-lastlines
+
+5. I'd prefer the first ones actually
+
+Display the first 10 lines of /etc/passwd
+
+Example:
+
+```bash
+$ ./5-firstlines
+##
+# User Database
+#
+# Note that this file is consulted directly only when the system is running
+# in single-user mode. At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+$
+```
+
+Repo:
+
++ GitHub repository: alx-system_engineering-devops
++ Directory: 0x02-shell_redirections
++ File: 5-firstlines
+
+6. Line #2
+
+Write a script that displays the third line of the file iacta.
+
+The file iacta will be in the working directory
+
++ You’re not allowed to use sed
+
+```bash
+julien@ubuntu:/tmp/h$ cat iacta 
+Alea iacta est
+
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+(as iacta alea est) to Julius Caesar on January 10, 49 BC
+as he led his army across the Rubicon river in Northern Italy. With this step,
+he entered Italy at the head of his army in defiance of the Senate and began
+his long civil war against Pompey and the Optimates. The phrase has been
+adopted in Italian (Il dado è tratto), Romanian (Zarurile au fost aruncate),
+Spanish (La suerte está echada), French (Les dés sont jetés), Portuguese (A
+sorte está lançada), Dutch (De teerling is geworpen),
+German (Der Würfel ist gefallen), Hungarian (A kocka el van vetve) and many other languages to
+indicate that events have passed a point of no return.
+
+Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
+julien@ubuntu:/tmp/h$ ./6-third_line 
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+julien@ubuntu:/tmp/h$ 
+```
+
+Note: The output will differ, depending on the content of the file iacta.
+
+Repo:
+
++ GitHub repository: alx-system_engineering-devops
++ Directory: 0x02-shell_redirections
++ File: 6-third_line
+
+7. It is a good file that cuts iron without making a noise
+
+Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+
+```bash
+julien@ubuntu:~/shell$ ls && ./7-file && ls -l && cat -e \\*
+0-mac_and_cheese 7-file 7-file~ Makefile
+total 20
+-rwxrw-r-- 1 julien julien 79 Jan 20 06:24 0-mac_and_cheese
+-rwxrw-r-- 1 julien julien 90 Jan 20 06:40 7-file
+-rwxrw-r-- 1 julien julien 69 Jan 20 06:37 7-file~
+-rw-rw-r-- 1 julien julien 14 Jan 20 06:38 Makefile
+-rw-rw-r-- 1 julien julien 17 Jan 20 06:40 '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+Best School$
+julien@ubuntu:~/shell$
+```
+
+Repo:
+
++ GitHub repository: alx-system_engineering-devops
++ Directory: 0x02-shell_redirections
++ File: 7-file
+
+8. Save current state of directory
+
+Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
+
+```bash
+julien@ubuntu:/tmp/h$ ls -la
+total 20
+drwxrwxr-x  2 julien julien 4096 Sep 20 18:18 .
+drwxrwxrwt 13 root   root   4096 Sep 20 18:18 ..
+-rwxrw-r--  1 julien julien   36 Sep 20 18:18 8-cwd_state
+-rw-rw-r--  1 betty  julien   23 Sep 20 14:25 hello
+-rw-rw-r--  1 julien julien  926 Sep 20 17:52 iacta
+julien@ubuntu:/tmp/h$ ./8-cwd_state 
+julien@ubuntu:/tmp/h$ ls -la
+total 24
+drwxrwxr-x  2 julien julien 4096 Sep 20 18:18 .
+drwxrwxrwt 13 root   root   4096 Sep 20 18:18 ..
+-rwxrw-r--  1 julien julien   36 Sep 20 18:18 8-cwd_state
+-rw-rw-r--  1 betty  julien   23 Sep 20 14:25 hello
+-rw-rw-r--  1 julien julien  926 Sep 20 17:52 iacta
+-rw-rw-r--  1 julien julien  329 Sep 20 18:18 ls_cwd_content
+julien@ubuntu:/tmp/h$ cat ls_cwd_content 
+total 20
+drwxrwxr-x  2 julien julien 4096 Sep 20 18:18 .
+drwxrwxrwt 13 root   root   4096 Sep 20 18:18 ..
+-rwxrw-r--  1 julien julien   36 Sep 20 18:18 8-cwd_state
+-rw-rw-r--  1 betty  julien   23 Sep 20 14:25 hello
+-rw-rw-r--  1 julien julien  926 Sep 20 17:52 iacta
+-rw-rw-r--  1 julien julien    0 Sep 20 18:18 ls_cwd_content
+julien@ubuntu:/tmp/h$ 
+```
+
+Repo:
+
++ GitHub repository: alx-system_engineering-devops
++ Directory: 0x02-shell_redirections
++ File: 8-cwd_state
+
+9. Duplicate last line
+
+Write a script that duplicates the last line of the file iacta
+
++ The file iacta will be in the working directory
+
+```bash
+julien@ubuntu:/tmp/h$ cat iacta 
+Alea iacta est
+
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+(as iacta alea est) to Julius Caesar on January 10, 49 BC
+as he led his army across the Rubicon river in Northern Italy. With this step,
+he entered Italy at the head of his army in defiance of the Senate and began
+his long civil war against Pompey and the Optimates. The phrase has been
+adopted in Italian (Il dado è tratto), Romanian (Zarurile au fost aruncate),
+Spanish (La suerte está echada), French (Les dés sont jetés), Portuguese (A
+sorte está lançada), Dutch (De teerling is geworpen),
+German (Der Würfel ist gefallen), Hungarian (A kocka el van vetve) and many other languages to
+indicate that events have passed a point of no return.
+
+Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
+julien@ubuntu:/tmp/h$ ./9-duplicate_last_line 
+julien@ubuntu:/tmp/h$ cat iacta 
+Alea iacta est
+
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+(as iacta alea est) to Julius Caesar on January 10, 49 BC
+as he led his army across the Rubicon river in Northern Italy. With this step,
+he entered Italy at the head of his army in defiance of the Senate and began
+his long civil war against Pompey and the Optimates. The phrase has been
+adopted in Italian (Il dado è tratto), Romanian (Zarurile au fost aruncate),
+Spanish (La suerte está echada), French (Les dés sont jetés), Portuguese (A
+sorte está lançada), Dutch (De teerling is geworpen),
+German (Der Würfel ist gefallen), Hungarian (A kocka el van vetve) and many other languages to
+indicate that events have passed a point of no return.
+
+Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
+Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
+julien@ubuntu:/tmp/h$ 
+```
+
+Repo:
+
++ GitHub repository: alx-system_engineering-devops
++ Directory: 0x02-shell_redirections
++ File: 9-duplicate_last_line
+
+
