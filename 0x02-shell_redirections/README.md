@@ -940,3 +940,97 @@ Repo:
 + GitHub repository: alx-system_engineering-devops
 + Directory: 0x02-shell_redirections
 + File: 100-empty_casks
+
+24. A gif is worth ten thousand words
+
+Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+
++ Hidden files should be listed
++ Only regular files (not directories) should be listed
++ The names of the files should be displayed without their extensions
++ The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file a, and file Rona should be listed after file jay)
++ One file name per line
++ The listing should end with a new line
++ You are not allowed to use basename, grep, egrep, fgrep or rgrep
+
+```bash
+julien@production-503e7013:~/shell/fun_with_the_shell$ ls -Rla
+    .:
+    total 28
+    drwxrwxr-x 3 julien julien 4096 Jan 20 03:35 .
+    drwxrwxr-x 3 julien julien 4096 Jan 20 02:58 ..
+    -rwxr--r-- 1 julien julien 43 Jan 20 02:59 0-commas
+    -rwxr--r-- 1 julien julien 47 Jan 20 02:50 1-empty_casks
+    -rwxrw-r-- 1 julien julien 68 Jan 20 03:35 2-gifs
+    -rw-rw-r-- 1 julien julien 14 Jan 20 03:35 Makefile
+    drwxrwxr-x 4 julien julien 4096 Jan 20 03:42 test_dir
+
+    ./test_dir:
+    total 16
+    drwxrwxr-x 4 julien julien 4096 Jan 20 03:42 .
+    drwxrwxr-x 3 julien julien 4096 Jan 20 03:35 ..
+    -rw-rw-r-- 1 julien julien 0 Jan 20 03:40 .horrible_selfie.gif
+    -rw-rw-r-- 1 julien julien 0 Jan 20 03:23 README.md
+    -rw-rw-r-- 1 julien julien 0 Jan 20 03:17 docker.gif
+    -rw-rw-r-- 1 julien julien 0 Jan 20 03:17 file.sh
+    drwxrwxr-x 2 julien julien 4096 Jan 20 03:23 photos
+    drwxrwxr-x 2 julien julien 4096 Jan 20 03:23 rep.gif
+
+    ./test_dir/photos:
+    total 8
+    drwxrwxr-x 2 julien julien 4096 Jan 20 03:23 .
+    drwxrwxr-x 4 julien julien 4096 Jan 20 03:42 ..
+    -rw-rw-r-- 1 julien julien 0 Jan 20 03:23 cat.gif
+    -rw-rw-r-- 1 julien julien 0 Jan 20 03:22 index.html
+    -rw-rw-r-- 1 julien julien 0 Jan 20 03:23 main.gif
+    -rw-rw-r-- 1 julien julien 0 Jan 20 03:23 Electra_napping.gif
+
+    ./test_dir/rep.gif:
+    total 8
+    drwxrwxr-x 2 julien julien 4096 Jan 20 03:23 .
+    drwxrwxr-x 4 julien julien 4096 Jan 20 03:42 ..
+    julien@production-503e7013:~/shell/fun_with_the_shell$ ./101-gifs
+    .horrible_selfie
+    cat
+    docker
+    Electra_napping
+    main
+    julien@production-503e7013:~/shell/fun_with_the_shell$
+```
+
+Repo:
+
++ GitHub repository: alx-system_engineering-devops
++ Directory: 0x02-shell_redirections
++ File: 101-gifs
+
+25. Acrostic
+
+An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval. [Read more](https://en.wikipedia.org/wiki/Acrostic).
+
+Create a script that decodes acrostics that use the first letter of each line.
+
++ The ‘decoded’ message has to end with a new line
++ You are not allowed to use grep, egrep, fgrep or rgrep
+
+```bash
+julien@ubuntu:/tmp/0x02$ cat An\ Acrostic 
+Elizabeth it is in vain you say
+Love not"—thou sayest it in so sweet a way:
+In vain those words from thee or L.E.L.
+Zantippe's talents had enforced so well:
+Ah! if that language from thy heart arise,
+Breath it less gently forth—and veil thine eyes.
+Endymion, recollect, when Luna tried
+To cure his love—was cured of all beside—
+His follie—pride—and passion—for he died.
+julien@ubuntu:/tmp/0x02$ ./102-acrostic < An\ Acrostic 
+ELIZABETH
+julien@ubuntu:/tmp/0x02$ 
+```
+
+Repo:
+
++ GitHub repository: alx-system_engineering-devops
++ Directory: 0x02-shell_redirections
++ File: 102-acrostic
