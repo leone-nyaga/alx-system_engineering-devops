@@ -67,11 +67,10 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Quiz Questions
 
-![task0](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00.Shell-navigation/images/shellnav0-1.png)
-![task1](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00.Shell-navigation/images/shellnav2-3.png)
-![task2](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00.Shell-navigation/images/shellnav4-5.png)
-![task3](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00.Shell-navigation/images/shellnav6-7.png)
-![task4](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00.Shell-navigation/images/shellnav8-9.png)
+![task0](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x01-shell_permissions/images/shellperm0-1.png)
+![task1](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x01-shell_permissions/images/shellperm2-3.png)
+![task2](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x01-shell_permissions/images/shellperm3-5.png)
+![task3](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x01-shell_permissions/images/shellperm6.png)
 
 ## Tasks
 
