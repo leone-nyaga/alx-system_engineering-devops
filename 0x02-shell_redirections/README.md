@@ -78,6 +78,10 @@ Note: You do not have to learn about fmt, pr, du, gzip, tar, lpr, sed and awk ye
 
 ## Quiz questions
 
+![task0](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x02-shell_redirections/images/shellio0-1.png)
+![task1](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x02-shell_redirections/images/shellio2-3.png)
+![task2](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x02-shell_redirections/images/shellio4-5.png)
+![task3](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x02-shell_redirections/images/shellio6.png)
 
 ## Tasks
 
