@@ -1,5 +1,7 @@
 # 0x00. Shell, basics
 
+![rtfm](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00-shell_basics/images/rtfm.png)
+
 ## Resources
 
 Read or watch:
@@ -155,6 +157,8 @@ julien@ubuntu:/tmp$
 
 ## Quiz Question
 
+![task0](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00-shell_basics/images/shellbasics0-1.png)
+![task1](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x00-shell_basics/images/shellbasics2-3.png)
 
 ## Tasks
 
