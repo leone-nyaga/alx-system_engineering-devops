@@ -1,5 +1,7 @@
 # 0x08. Networking basics #1
 
+![no place like home](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x08-networking_basics_2/images/noplacelike%20home.png)
+
 ## Resources
 
 Read or watch:
@@ -49,7 +51,7 @@ At the end of this project, you are expected to be able to [explain to anyone]()
 
 ## Quiz Question
 
-![task]()
+![task](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x08-networking_basics_2/images/network1.png)
 
 
 ## Tasks
