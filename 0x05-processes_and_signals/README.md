@@ -397,7 +397,7 @@ Write a Bash script that:
 + Displays Y U no love me?! when receiving a SIGINT signal
 + Deletes the file /var/run/myscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal
 
-![meme1]()
+![meme1](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/images/meme1.jpg)
 
 ```bash
 sylvain@ubuntu$ sudo ./100-process_and_pid_file
@@ -444,7 +444,7 @@ Repo:
 
 10. Manage my process
 
-![meme 2]()
+![meme 2](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/images/meme2.jpg)
 
 Read:
 
@@ -525,7 +525,7 @@ Repo:
 
 11. Zombie
 
-![zombiememe]()
+![zombiememe](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/images/zombiememe.jpg)
 
 Read what a [zombie process is](https://zombieprocess.wordpress.com/what-is-a-zombie-process).
 
