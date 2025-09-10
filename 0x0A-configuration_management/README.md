@@ -15,7 +15,7 @@ Thanks to Puppet, we were able to restore our infrastructure to normal operation
 
 Obviously writing Puppet code for your infrastructure requires an investment of time and energy, but in the long term, it is for sure a must-have.
 
-![gif]()
+![gif](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x0A-configuration_management/images/some%20gif.gif)
 
 That was me ^_^‘: https://x.com/devopsreact/status/836971570136375296
 
