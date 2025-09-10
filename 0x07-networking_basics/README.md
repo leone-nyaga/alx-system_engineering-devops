@@ -110,7 +110,7 @@ It is organized from the lowest level to the highest level:
 
 Keep in mind that the OSI model is a concept, it’s not even tangible. The OSI model doesn’t perform any functions in the networking process. It is a conceptual framework so we can better understand complex interactions that are happening. Most of the functionality in the OSI model exists in all communications systems.
 
-![osi model]()
+![osi model](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x07-networking_basics/images/osi1.jpg)
 
 In this project we will mainly focus on:
 
@@ -119,7 +119,7 @@ In this project we will mainly focus on:
 
 The image bellow describes more concretely how you can relate to every level.
 
-![osi model]()
+![osi model](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x07-networking_basics/images/osi2.jpg)
 
 Questions:
 
@@ -173,7 +173,7 @@ Repo:
 
 2. MAC and IP address
 
-![mac address]()
+![mac address](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x07-networking_basics/images/macadd.jpg)
 
 Questions:
 
@@ -197,7 +197,7 @@ Repo:
 
 3. UDP and TCP
 
-![udp and tcp]()
+![udp and tcp](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x07-networking_basics/images/udptcp.jpg)
 
 Let’s fill the empty parts in the drawing above.
 
@@ -278,7 +278,7 @@ Repo:
 
 5. Is the host on the network
 
-![gif]()
+![gif](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x07-networking_basics/images/giphy.gif)
 
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command ping uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
