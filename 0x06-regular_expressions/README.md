@@ -42,9 +42,13 @@ Read or watch:
 
 ## Quiz Question
 
+![task0-2](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x06-regular_expressions/images/regex0-2.png)
+
 ## Tasks
 
-![regex image]()
+0. Simply matching School
+
+![regex image](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x06-regular_expressions/images/regex0.png)
 
 Requirements:
 
@@ -72,7 +76,7 @@ Repo:
 
 1. Repetition Token #0
 
-![regex image]()
+![regex image](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x06-regular_expressions/images/regex1.png)
 
 Requirements:
 
@@ -87,7 +91,7 @@ Repo:
 
 2. Repetition Token #1
 
-![regex image]()
+![regex image](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x06-regular_expressions/images/regex2.png)
 
 Requirements:
 
@@ -102,7 +106,7 @@ Repo:
 
 3. Repetition Token #2
 
-![regex image]()
+![regex image](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x06-regular_expressions/images/regex3.png)
 
 Requirements:
 
@@ -117,7 +121,7 @@ Repo:
 
 4. Repetition Token #3
 
-![regex image]()
+![regex image](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x06-regular_expressions/images/regex4.png)
 
 Requirements:
 
@@ -189,7 +193,7 @@ Repo:
 
 7. OMG WHY ARE YOU SHOUTING?
 
-![meme]()
+![meme](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x06-regular_expressions/images/regexmeme.jpg)
 
 Requirement:
 
