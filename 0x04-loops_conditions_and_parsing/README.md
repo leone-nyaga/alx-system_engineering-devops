@@ -67,11 +67,11 @@ Examples:
 
 Not passing Shellcheck:
 
-![not passing shellcheck]()
+![not passing shellcheck](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/images/notpassing.png)
 
 Passing Shellcheck:
 
-![passing shellcheck]()
+![passing shellcheck](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/images/passing.png)
 
 For every feedback, Shellcheck will provide a code that you can use to get more information about the issue, for example for code SC2034, you can browse [https://github.com/koalaman/shellcheck/wiki/SC2034](https://github.com/koalaman/shellcheck/wiki/SC2034).
 
@@ -633,7 +633,7 @@ Repo:
 
 12. Tell the story of passwd
 
-![dog and pup meme]()
+![dog and pup meme](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/images/dogpupmeme.jpg)
 
 Read:
 
@@ -692,7 +692,7 @@ Repo:
 
 13. Let's parse Apache logs
 
-![doge meme]()
+![doge meme](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/images/doge%20meme.jpg)
 
 [Apache](https://en.wikipedia.org/wiki/Apache_HTTP_Server) is among the most popular web servers in the world, serving 50% of all active websites, no doubt that you will have to interact with it within your career.
 
