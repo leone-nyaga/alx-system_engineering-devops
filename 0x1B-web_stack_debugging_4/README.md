@@ -1,6 +1,6 @@
 # 0x1B-web_stack_debugging_4
 
-![webstack4]()
+![webstack4](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x1B-web_stack_debugging_4/images/webstack4.jpg)
 
 ## Requirements
 
