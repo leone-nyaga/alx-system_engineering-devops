@@ -1,6 +1,6 @@
 # 0x16. API advanced
 
-![comicsnippet]()
+![comicsnippet](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x16-api_advanced/images/apicomic.png)
 
 ## Background Context
 
