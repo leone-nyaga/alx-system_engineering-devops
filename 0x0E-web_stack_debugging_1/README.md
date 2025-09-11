@@ -1,6 +1,6 @@
 # 0x0E-web_stack_debugging_1
 
-![iwillfindyou](https://github.com/leone-nyaga/alx-system_engineering-devops/tree/master/0x0E-web_stack_debugging_1)
+![iwillfindyou](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/0x0E-web_stack_debugging_1/images/iwillfindyou.jpg)
 
 ## Requirements
 
