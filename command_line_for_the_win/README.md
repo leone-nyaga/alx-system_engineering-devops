@@ -1,6 +1,6 @@
 # Command line for the win
 
-![sftp]()
+![sftp](https://github.com/leone-nyaga/alx-system_engineering-devops/blob/master/command_line_for_the_win/images/sftp.png)
 
 ## Background Context
 
